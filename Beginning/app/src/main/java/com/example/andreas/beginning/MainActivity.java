@@ -12,7 +12,6 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
-
     SeekBar seekBar;
     TextView textView;
     int min = 0, max = 100, current = 50;
@@ -30,16 +29,23 @@ public class MainActivity extends AppCompatActivity {
         seekBar.setProgress(current - min);
         textView.setText("" + current);
 
-
-
-        btnRight = findViewById(R.id.btnRight);
         btnLeft = findViewById(R.id.btnLeft);
-
         btnLeft.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
 
-                textView.setText("LEFT Pressed");
+                textView.setText("LEFT");
+            }
+
+        });
+
+
+        btnRight = findViewById(R.id.btnRight);
+        btnRight.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+
+                textView.setText("RIGHT");
             }
 
         });
