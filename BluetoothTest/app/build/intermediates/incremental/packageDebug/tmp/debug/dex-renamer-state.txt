@@ -1,0 +1,4 @@
+#Sun Jun 14 12:50:49 CEST 2020
+base.0=C\:\\Users\\mi-hu\\Documents\\GitHub\\WirelessSmartCar\\BluetoothTest\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
