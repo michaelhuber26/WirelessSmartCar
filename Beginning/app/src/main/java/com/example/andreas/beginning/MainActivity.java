@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     int min = 0, max = 100, current = 50;
     Button btnLeft, btnRight;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
